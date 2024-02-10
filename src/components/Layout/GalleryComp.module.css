@@ -1,0 +1,45 @@
+.box h3{
+  left: 2rem
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "one two three"
+    "one four five";
+  gap: 10px;
+  margin: 2rem auto 0;
+  width: 90dvh;
+}
+
+.container div:nth-child(1) {
+  /* place-items: center; */
+  grid-column-start: 1;
+  grid-row: 1 / span 2;
+}
+
+.container div:nth-child(1) {
+  grid-area: one;
+}
+.container div:nth-child(2) {
+  grid-area: two;
+}
+.container div:nth-child(3) {
+  grid-area: three;
+}
+.container div:nth-child(4) {
+  grid-area: four;
+}
+.container div:nth-child(5) {
+  grid-area: five;
+}
+
+@media (max-width: 600px) {
+  .container {
+    grid-template-areas:
+      "one two"
+      "one three"
+      "four five";
+  }
+}

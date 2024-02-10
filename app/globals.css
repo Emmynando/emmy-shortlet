@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@600&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.light-text {
+  color: #fff !important;
+}
+.grey-text {
+  color: #d3d3d3 !important;
+}
+
+html,
+body {
+  /* background-color: #000000; */
+  color: #000000;
+  line-height: 1.5;
+  height: 100%;
+  margin: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+:root {
+  --pri-clr: hsl(156, 87%, 18%);
+  --sec-clr: hsl(166, 77%, 37%);
+  --ter-clr: hsl(212, 18%, 35%);
+  --pri-text: "Montserrat", sans-serif;
+  --sec-text: "Inter", sans-serif;
+  --pri-text-clr: hsl(208, 21%, 88%);
+  --sec-text-clr: hsl(210, 0%, 75%);
+  --pri-grey: hsl(210, 32%, 93%);
+  --sec-grey: hsl(210, 38%, 97%);
+
+  --pri--weight: 900;
+  --sec-weight: 700;
+  --ter-weight: 500;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,0 +1,33 @@
+.container {
+  background-color: var(--sec-grey);
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 1rem 2rem;
+}
+
+.container header {
+  color: #065535;
+  font: bold 2rem inter;
+}
+
+.container ul {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+}
+.container li {
+  color: var(--pri-clr);
+  font: bold 0.9rem inter;
+  list-style-type: none;
+}
+
+.container li:first-child {
+  background-color: var(--sec-clr);
+  border-radius: 0.5rem;
+  color: #fff;
+  padding: 0.5rem;
+}

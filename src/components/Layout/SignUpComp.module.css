@@ -1,0 +1,52 @@
+.body {
+  width: 100vw;
+  display: grid;
+  min-height: 80vh;
+}
+
+.container {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--pri-clr);
+  place-self: center;
+  width: 40%;
+  padding: 1rem;
+}
+
+.container h3 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.container .form {
+  margin: 0 auto;
+  position: relative;
+}
+
+.form input {
+  border-color: #065535;
+
+  border-radius: 0.5rem;
+  display: block;
+  outline: none;
+  margin-bottom: 0.4rem;
+  padding: 0.3rem 0.5rem;
+}
+
+.form input:focus::-webkit-input-placeholder {
+  font-size: 0.75em;
+  position: relative;
+  top: -10px;
+  transition: 0.2s ease-out;
+}
+
+.form button {
+  background-color: #fff;
+  color: var(--pri-clr);
+  border-radius: 0.5rem;
+  font: bold 1rem serif;
+  margin-left: 35%;
+  width: 5rem;
+  padding: 0.2rem;
+}

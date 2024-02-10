@@ -1,0 +1,46 @@
+.container{
+    margin: 0 auto;
+    width: 90dvw;
+
+}
+
+.container h2{
+    font-weight: 900;
+    color: var(--pri-clr);
+    margin-top: 1rem;
+}
+
+.box{
+    display:flex;
+    width:100%;
+}
+
+.second-div{
+    background-color: var(--pri-clr);
+    display:grid;
+    place-items: center;
+    color: #fff;
+    width: 50%;
+}
+.second-div h3{
+    display: inline-block;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.second-div p span{
+    font-weight:700;
+    font-size:1.2rem;
+}
+
+.second-div button{
+    background-color: var(--sec-grey);
+    border:none;
+    color: var(--pri-clr);
+    padding-inline: 0.5rem;
+    outline: transparent;
+}
+
+.second-div button:hover{
+    border-radius: 0.5em;
+}
